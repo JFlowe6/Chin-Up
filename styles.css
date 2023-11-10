@@ -2,6 +2,8 @@ body{
     background-color: rgb(7, 103, 49);
     margin: 0;
     text-align: center;
+    font-family: curly;
+
 }
 
 #bubble-container{
@@ -29,7 +31,12 @@ body{
     align-items: center;
     text-align: center;
     height: 200px;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: curly;
+    src: url(fonts/curlyFont.ttf);
 }
 
 .pointer {

@@ -4,6 +4,10 @@ body{
     text-align: center;
 }
 
+#bubble-container{
+    display: none;
+}
+
 
 
 .bubble {
@@ -46,5 +50,4 @@ body{
 
 #ducky{
     width: 200px;
-
 }

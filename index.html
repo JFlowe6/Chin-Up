@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="bubble-container">
+    <div id="bubble-container">
             <div class="bubble">
                 <div class="quote">
                     <h2>You can do it!</h2>
@@ -16,7 +16,12 @@
             <div class="pointer"></div>
     </div>
     <div class="duck">
-        <img id="ducky" src="imgs/ducky.png">
+        <img onclick="showDiv()" id="ducky" src="imgs/ducky.png">
+        <script>
+            function showDiv(){
+                document.getElementById("bubble-container").style.display="block";
+            }
+        </script>
     </div>
 </body>
 </html>

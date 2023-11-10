@@ -1,5 +1,6 @@
 function showDiv(){                
     document.getElementById("bubble-container").style.display="block";
+    document.getElementById("clickHere").style.display="none";
 }
 
 function play(url) {
